@@ -57,14 +57,6 @@ jobs:
 
         npm ci
 
-    - name: Build
-      env:
-        DIRECTORY: ${{ steps.status.outputs.directory }}
-      run: |
-        cd $DIRECTORY
-
-        npm run build
-
     - name: Publish npm
       id: publish
       env:

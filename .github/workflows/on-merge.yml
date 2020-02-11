@@ -111,7 +111,7 @@ jobs:
           const { data: deployment } = await github.repos.createDeployment({
             owner: context.repo.owner,
             repo: context.repo.repo,
-            ref: `v${version}`,
+            ref: `${name}@${version}`,
             environment: 'npm',
             auto_merge: false,
             required_contexts: [],

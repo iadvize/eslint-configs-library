@@ -9,7 +9,7 @@ on:
 
 jobs:
   ci:
-    name: 'install, build, lint'
+    name: 'install, lint'
     runs-on: ubuntu-18.04
 
     steps:
@@ -72,15 +72,6 @@ jobs:
         for PACKAGE in ${PACKAGES//,/ }; do
           echo $PACKAGE
           (cd $PACKAGE; npm ci)
-        done
-
-    - name: Build
-      env:
-        PACKAGES: ${{ steps.packages.outputs.packages }}
-      run: |
-        for PACKAGE in ${PACKAGES//,/ }; do
-          echo $PACKAGE
-          (cd $PACKAGE; npm run build)
         done
 
     - name: Lint

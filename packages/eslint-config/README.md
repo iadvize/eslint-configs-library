@@ -5,7 +5,7 @@
 Add this dependency to your repository with its peer-dependencies:
 
 ```bash
-yarn add --dev @iadvize-oss/eslint-config eslint typescript
+npm add --save-dev @iadvize-oss/eslint-config eslint typescript
 ```
 
 ## Usage

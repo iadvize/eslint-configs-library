@@ -7,7 +7,7 @@ This is a workaround for https://github.com/eslint/eslint/issues/3458
 Add this dependency to your eslint config
 
 ```bash
-npm add --dev @iadvize-oss/eslint-patch
+npm add --save-dev @iadvize-oss/eslint-patch
 ```
 
 ## Usage

@@ -12,6 +12,7 @@ module.exports = {
   ],
   parserOptions: {
     project: './tsconfig.json',
+    extraFileExtensions: ['.json'],
   },
   env: {
     browser: true,

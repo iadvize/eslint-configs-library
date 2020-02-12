@@ -4,7 +4,8 @@
   "description": "iAdvize javascript eslint rules, based on airbnb",
   "main": "index.js",
   "author": "iAdvize developers",
-  "license": "UNLICENSED",
+  "keywords": ["iAdvize", "eslint", "patch"],
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/iadvize/eslint-configs-library"

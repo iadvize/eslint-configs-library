@@ -141,6 +141,9 @@ module.exports = {
     },
     {
       files: ['*.json'],
+      parserOptions: {
+        project: undefined,
+      },
       rules: {
         '@typescript-eslint/no-unused-expressions': 'off',
       },

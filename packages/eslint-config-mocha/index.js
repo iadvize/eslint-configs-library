@@ -1,3 +1,5 @@
+require('@iadvize-oss/eslint-patch');
+
 const MOCHA_FILES = ['**/*.mocha.js', 'mocha/**/*.js*'];
 
 module.exports = {

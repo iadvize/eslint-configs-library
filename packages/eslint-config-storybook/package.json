@@ -1,6 +1,6 @@
 {
   "name": "@iadvize-oss/eslint-config-redux-saga",
-  "version": "0.0.1-beta.0",
+  "version": "0.0.1-beta.1",
   "description": "iAdvize javascript eslint rules for storybook",
   "main": "index.js",
   "author": "iAdvize developers",

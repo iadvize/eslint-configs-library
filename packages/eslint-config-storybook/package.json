@@ -27,5 +27,8 @@
   "scripts": {
     "lint:js": "eslint *.js",
     "bump-changelog": "VERSION=$(cat package.json | jq '.version') && remark CHANGELOG.md -o --use @jarrodldavis/changelog-version-bump=version:$VERSION && git add CHANGELOG.md"
+  },
+  "dependencies": {
+    "@iadvize-oss/eslint-patch": "0.0.0-canary-188a39b2ce523a2bfa712593c3dc6e9e24cbe15d"
   }
 }

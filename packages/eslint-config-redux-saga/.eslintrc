@@ -1,0 +1,4 @@
+{
+  extends: '@iadvize-oss/eslint-config',
+}
+

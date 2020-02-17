@@ -1,4 +1,4 @@
-# @iadvize/eslint-config-mocha
+# @iadvize-oss/eslint-config-mocha
 
 ## Install
 
@@ -13,7 +13,7 @@ npm add --save-dev @iadvize/eslint-config-mocha eslint
 ```json
 {
   "extends": [
-    "@iadvize/eslint-config-mocha"
+    "@iadvize-oss/eslint-config-mocha"
   ]
 }
 ```

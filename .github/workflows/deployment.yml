@@ -69,7 +69,7 @@ jobs:
 
         NAME=$(cat package.json | jq -r '.name')
 
-        if npm info $NAME@VERSION; then
+        if npm info $NAME@$VERSION; then
           echo "::debug ::$VERSION already exists"
         else
           npm version $VERSION --no-git-tag-version

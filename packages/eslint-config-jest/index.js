@@ -1,3 +1,5 @@
+require('@iadvize-oss/eslint-patch');
+
 const JEST_FILES = [
   '**/*.test.@(j|t)s?(x)',
   'tests/**/*.@(j|t)s?(x)',

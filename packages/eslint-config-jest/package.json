@@ -25,6 +25,7 @@
     "eslint": "^6.8.0"
   },
   "dependencies": {
+    "@iadvize-oss/eslint-patch": "0.0.0-canary-188a39b2ce523a2bfa712593c3dc6e9e24cbe15d",
     "eslint-plugin-jest": "^23.7.0"
   },
   "scripts": {

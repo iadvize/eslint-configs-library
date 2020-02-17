@@ -1,6 +1,6 @@
 {
   "name": "@iadvize-oss/eslint-config",
-  "version": "0.0.1-beta.5",
+  "version": "0.0.1-beta.6",
   "description": "iAdvize javascript eslint rules, based on airbnb",
   "main": "index.js",
   "author": "iAdvize developers",

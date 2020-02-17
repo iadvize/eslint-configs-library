@@ -1,6 +1,6 @@
 {
   "name": "@iadvize-oss/eslint-config-mocha",
-  "version": "0.0.1-beta.0",
+  "version": "0.0.1-beta.1",
   "description": "iAdvize javascript eslint rules for mocha files",
   "main": "index.js",
   "author": "iAdvize developers",

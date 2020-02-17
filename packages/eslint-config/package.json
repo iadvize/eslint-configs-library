@@ -25,6 +25,7 @@
     "typescript": "^3.4.0"
   },
   "dependencies": {
+    "@iadvize-oss/eslint-patch": "0.0.0-canary-188a39b2ce523a2bfa712593c3dc6e9e24cbe15d",
     "@typescript-eslint/eslint-plugin": "^2.19.2",
     "eslint-config-airbnb": "^18.0.1",
     "eslint-config-airbnb-typescript": "^7.0.0",

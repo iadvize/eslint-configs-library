@@ -1,3 +1,5 @@
+require('@iadvize-oss/eslint-patch');
+
 const TESTS_FILES = [
   '**/*.test.js*',
   'tests/**/*.js*',

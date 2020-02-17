@@ -7,7 +7,7 @@
   "keywords": [
     "iAdvize",
     "eslint",
-    "jest"
+    "redux-saga"
   ],
   "license": "MIT",
   "repository": {

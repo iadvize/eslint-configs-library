@@ -7,7 +7,7 @@
   "keywords": [
     "iAdvize",
     "eslint",
-    "patch"
+    "jest"
   ],
   "license": "MIT",
   "repository": {

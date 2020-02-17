@@ -67,8 +67,14 @@ jobs:
       run: |
         cd $DIRECTORY
 
-        npm version $VERSION --allow-same-version --no-git-tag-version
-        npm publish --access public --tag $TAG
+        NAME=$(cat package.json | jq -r '.name')
+
+        if npm info $NAME@VERSION; then
+          echo "::debug ::$VERSION already exists"
+        else
+          npm version $VERSION --no-git-tag-version
+          npm publish --access public --tag $TAG
+        fi
 
         echo "::set-output name=state::done"
 

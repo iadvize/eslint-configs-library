@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/iadvize/eslint-configs-library#readme",
   "devDependencies": {
-    "@iadvize-oss/eslint-config": "0.0.1-beta.10",
+    "@iadvize-oss/eslint-config": "0.0.2",
     "@jarrodldavis/remark-changelog-version-bump": "^0.1.1",
     "eslint": "^6.8.0",
     "remark-cli": "^7.0.1",

@@ -33,3 +33,18 @@ so:
   ],
   "exclude": ["node_modules"]
 ```
+
+
+## Special eslint patch
+
+The lib also provide a workaround for https://github.com/eslint/eslint/issues/3458
+
+In your config javascript, entry point. Start by requiring the patch:
+```js
+require('@iadvize-oss/eslint-config/patch');
+
+module.exports = {
+  extends: [
+    'airbnb-typescript',
+    ...
+```

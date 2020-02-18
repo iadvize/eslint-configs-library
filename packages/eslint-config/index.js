@@ -1,4 +1,4 @@
-require('@iadvize-oss/eslint-patch');
+require('./patch');
 
 module.exports = {
   plugins: ['prettier', 'eslint-plugin-tsdoc'],

@@ -29,6 +29,6 @@
     "bump-changelog": "VERSION=$(cat package.json | jq '.version') && remark CHANGELOG.md -o --use @jarrodldavis/changelog-version-bump=version:$VERSION && git add CHANGELOG.md"
   },
   "dependencies": {
-    "@iadvize-oss/eslint-patch": "0.0.1"
+    "@iadvize-oss/eslint-patch": "0.0.2"
   }
 }

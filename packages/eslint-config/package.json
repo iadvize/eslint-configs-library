@@ -26,7 +26,7 @@
   },
   "dependencies": {
     "@iadvize-oss/eslint-patch": "0.0.1-beta.1",
-    "@typescript-eslint/eslint-plugin": "^2.19.2",
+    "@typescript-eslint/eslint-plugin": "^2.20.0",
     "eslint-config-airbnb": "^18.0.1",
     "eslint-config-airbnb-typescript": "^7.0.0",
     "eslint-config-prettier": "^6.7.0",

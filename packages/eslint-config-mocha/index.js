@@ -1,4 +1,4 @@
-require('@iadvize-oss/eslint-patch');
+require('@iadvize-oss/eslint-config/patch');
 
 const MOCHA_FILES = ['**/*.mocha.js', 'mocha/**/*.js*'];
 

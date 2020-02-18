@@ -7,6 +7,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+- misc: bump @iadvize-oss/eslint-patch from 0.0.1 to 0.0.2 in /packages/eslint-config-mocha
+
 ## [0.0.3]
 
 ### Changed

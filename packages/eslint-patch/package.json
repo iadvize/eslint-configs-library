@@ -1,6 +1,6 @@
 {
   "name": "@iadvize-oss/eslint-patch",
-  "version": "0.0.1-beta.0",
+  "version": "0.0.1-beta.1",
   "description": "Workaround for eslint plugin resolution",
   "main": "index.js",
   "repository": {

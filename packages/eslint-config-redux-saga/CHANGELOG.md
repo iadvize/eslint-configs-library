@@ -7,10 +7,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.0.2]
+
 ### Changed
-- misc: bump @iadvize-oss/eslint-patch from 0.0.1-beta.1 to 0.0.1 in /packages/eslint-config-redux-saga
+
+-   misc: bump @iadvize-oss/eslint-patch from 0.0.1-beta.1 to 0.0.1 in /packages/eslint-config-redux-saga
 
 ## [0.0.1]
 
 ### Changed
-- misc: bump @iadvize-oss/eslint-patch from 0.0.1-beta.0 to 0.0.1-beta.1 in /packages/eslint-config-redux-saga
+
+-   misc: bump @iadvize-oss/eslint-patch from 0.0.1-beta.0 to 0.0.1-beta.1 in /packages/eslint-config-redux-saga

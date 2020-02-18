@@ -17,7 +17,6 @@ It contains :
 ## How to develop 
 
 - Develop your change in the package `packages/<the package>`
-- Build the package with `npm run build`
 - Add lint that run with `npm run lint:js`
 
 ## How to contribute

@@ -2,21 +2,61 @@ version: 1
 
 update_configs:
   - package_manager: "javascript"
-    directory: "/packages/hello-1"
+    directory: "/packages/eslint-config"
     update_schedule: "live"
     version_requirement_updates: "increase_versions"
     commit_message:
       prefix: "misc"
     default_labels:
       - "patch"
-      - "packages/hello-1"
+      - "packages/eslint-config"
 
   - package_manager: "javascript"
-    directory: "/packages/hello-2"
+    directory: "/packages/eslint-config-jest"
     update_schedule: "live"
     version_requirement_updates: "increase_versions"
     commit_message:
       prefix: "misc"
     default_labels:
       - "patch"
-      - "packages/hello-2"
+      - "packages/eslint-config-jest"
+
+  - package_manager: "javascript"
+    directory: "/packages/eslint-config-mocha"
+    update_schedule: "live"
+    version_requirement_updates: "increase_versions"
+    commit_message:
+      prefix: "misc"
+    default_labels:
+      - "patch"
+      - "packages/eslint-config-mocha"
+
+  - package_manager: "javascript"
+    directory: "/packages/eslint-config-redux-saga"
+    update_schedule: "live"
+    version_requirement_updates: "increase_versions"
+    commit_message:
+      prefix: "misc"
+    default_labels:
+      - "patch"
+      - "packages/eslint-config-redux-saga"
+
+  - package_manager: "javascript"
+    directory: "/packages/eslint-config-storybook"
+    update_schedule: "live"
+    version_requirement_updates: "increase_versions"
+    commit_message:
+      prefix: "misc"
+    default_labels:
+      - "patch"
+      - "packages/eslint-config-storybook"
+
+  - package_manager: "javascript"
+    directory: "/packages/eslint-patch"
+    update_schedule: "live"
+    version_requirement_updates: "increase_versions"
+    commit_message:
+      prefix: "misc"
+    default_labels:
+      - "patch"
+      - "packages/eslint-patch"

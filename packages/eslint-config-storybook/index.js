@@ -1,4 +1,4 @@
-require('@iadvize-oss/eslint-patch');
+require('@iadvize-oss/eslint-config/patch');
 
 const STORYBOOK_FILES = [
   '.storybook/**/*.@(j|t)s?(x)',

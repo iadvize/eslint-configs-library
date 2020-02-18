@@ -7,5 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.0.1]
+
 ### Changed
-- misc: bump @typescript-eslint/eslint-plugin from 2.19.2 to 2.20.0 in /packages/eslint-config
+
+-   misc: bump @typescript-eslint/eslint-plugin from 2.19.2 to 2.20.0 in /packages/eslint-config

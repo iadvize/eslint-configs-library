@@ -7,8 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.1.1]
+
 ### Changed
-- misc: bump eslint-plugin-react-hooks from 2.3.0 to 2.4.0 in /packages/eslint-config
+
+-   misc: bump eslint-plugin-react-hooks from 2.3.0 to 2.4.0 in /packages/eslint-config
 
 ## [0.1.0]
 

@@ -73,7 +73,7 @@ jobs:
         PULL_REQUEST_TITLE: ${{ github.event.pull_request.title }}
         PACKAGE: ${{ steps.package-label.outputs.label }}
       run: |
-        sed -i "/^## \[Unreleased\]/a\\\n### Changed\\n- $PULL_REQUEST_TITLE" $PACKAGE/CHANGELOG.md
+        sed -i "/^## \[Unreleased\]/a\\\n- $PULL_REQUEST_TITLE" $PACKAGE/CHANGELOG.md
 
     - name: Git config
       run: |

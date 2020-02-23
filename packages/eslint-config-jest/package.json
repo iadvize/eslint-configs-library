@@ -15,7 +15,6 @@
     "url": "https://github.com/iadvize/eslint-configs-library"
   },
   "devDependencies": {
-    "@iadvize-oss/eslint-config": "0.1.0",
     "@jarrodldavis/remark-changelog-version-bump": "^0.1.1",
     "eslint": "^6.8.0",
     "remark-cli": "^7.0.1",
@@ -25,7 +24,7 @@
     "eslint": "^6.8.0"
   },
   "dependencies": {
-    "@iadvize-oss/eslint-config": "0.1.0",
+    "@iadvize-oss/eslint-config": "^0.1.1",
     "eslint-plugin-jest": "^23.8.0"
   },
   "scripts": {

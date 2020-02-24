@@ -34,12 +34,35 @@ so:
   "exclude": ["node_modules"]
 ```
 
+You probably want to define one special `.eslint.tsconfig.json` like so
+
+```json
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "noEmit": true
+  },
+  "include": [
+    "**/*",
+    "**/*.json"
+  ]
+}
+```
+
+Then, in you `.eslintrc`
+
+```json
+  "parserOptions": {
+    "project": "./.eslint.tsconfig.json"
+  }
+```
+
 
 ## Special eslint patch
 
 The lib also provide a workaround for https://github.com/eslint/eslint/issues/3458
 
-In your config javascript, entry point. Start by requiring the patch:
+When needed, tart by requiring the patch in your config  entry point.
 ```js
 require('@iadvize-oss/eslint-config/patch');
 

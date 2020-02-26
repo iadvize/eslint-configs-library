@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+
+- udpate eslint-plugin-jest dependency
+
 ## [0.0.4]
 
 ### Changed

@@ -17,10 +17,11 @@ jobs:
         github-token: ${{ secrets.GITHUB_TOKEN }}
         script: |
           const versionLabels = [
-            'no-release',
-            'patch',
-            'minor',
-            'major',
+            'Action: no bump',
+            'Action: beta bump',
+            'Action: patch bump',
+            'Action: minor bump',
+            'Action: major bump',
           ];
 
           const { data: pullLabels } = await github.issues.listLabelsOnIssue({
@@ -38,7 +39,7 @@ jobs:
           console.log(`::debug ::${versionLabelsPresent.length} matching labels`);
 
           if (versionLabelsPresent.length !== 1) {
-            throw new Error('Should have one and only one of no-release, patch, minor, major labels');
+            throw new Error('Should have one and only one version bump label');
           }
 
           const versionLabel = versionLabelsPresent[0];
@@ -46,7 +47,7 @@ jobs:
 
           const packageLabels = labels.filter(name => name.includes('packages/'));
 
-          if (versionLabel === 'no-release') {
+          if (versionLabel === 'Action: no bump') {
             return;
           }
 
@@ -57,7 +58,8 @@ jobs:
           console.log(`::set-output name=package::${packageLabels[0]}`)
 
     - name: Fail if no changelog change when needed
-      if: steps.labels.outputs.version-label != 'no-release'
+      if: >
+        steps.labels.outputs.version-label != 'Action: no bump'
       uses: actions/github-script@0.4.0
       env:
         PACKAGE: ${{ steps.labels.outputs.package }}

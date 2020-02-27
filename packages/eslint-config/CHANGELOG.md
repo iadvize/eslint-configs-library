@@ -7,10 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.1.3]
+
 ### Changed
 
-- Update eslint-plugin-react-hooks
-- Update eslint-plugin-tsdoc
+-   Update eslint-plugin-react-hooks
+-   Update eslint-plugin-tsdoc
 
 ## [0.1.2]
 

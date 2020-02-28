@@ -19,7 +19,7 @@
     "@jarrodldavis/remark-changelog-version-bump": "^0.1.1",
     "eslint": "^6.8.0",
     "remark-cli": "^7.0.1",
-    "typescript": "^3.8.2"
+    "typescript": "^3.8.3"
   },
   "peerDependencies": {
     "eslint": "^6.8.0"

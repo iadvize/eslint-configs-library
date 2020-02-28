@@ -5,7 +5,8 @@
     "strict": true
   },
   "include": [
-    "*"
+    "**/*",
+    "**/*.json"
   ],
   "exclude": ["node_modules"]
 }

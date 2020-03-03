@@ -9,8 +9,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 
--   Update @typescript-eslint/eslint-plugin
 -   Update @typescript-eslint/parser
+-   Update @typescript-eslint/eslint-plugin
 
 ## [1.1.0]
 

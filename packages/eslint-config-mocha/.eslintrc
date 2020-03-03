@@ -1,4 +1,4 @@
 {
-  extends: '@iadvize-oss/eslint-config',
+  extends: '@iadvize-oss/eslint-config/javascript',
 }
 

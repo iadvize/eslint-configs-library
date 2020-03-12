@@ -45,6 +45,10 @@ Note that all configs can be used on JSON files too.
 
 ### Typescript
 
+You will need to install a peer-dependency [`@typescript-eslint/parser`](https://github.com/typescript-eslint/typescript-eslint/tree/master/packages/parser) 
+as [it is required by `eslint-plugin-import`](https://github.com/benmosher/eslint-plugin-import#typescript)
+internally.
+
 We lint typescript files with @typescript-eslint/eslint-plugin that provide
 rules that replace default eslint ones.
 

@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+
+-   Remove @typescript-eslint/parser from dependencies as it should be seen as a peer dependency
+
 ## [1.1.1]
 
 ### Changed

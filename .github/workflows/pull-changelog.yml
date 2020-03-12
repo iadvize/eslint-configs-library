@@ -43,7 +43,7 @@ jobs:
           }
 
           const versionLabel = versionLabelsPresent[0];
-          console.log(`::set-output name=version-label::${versionLabel}`)
+          console.log(`::set-output name=versionLabel::${versionLabel}`)
 
           const packageLabels = labels.filter(name => name.includes('packages/'));
 
@@ -58,8 +58,9 @@ jobs:
           console.log(`::set-output name=package::${packageLabels[0]}`)
 
     - name: Fail if no changelog change when needed
-      if: >
-        steps.labels.outputs.version-label != 'Action: no bump'
+      if: |
+        steps.labels.outputs.versionLabel != 'Action: no bump'
+        && steps.labels.outputs.versionLabel != 'Action: beta bump'
       uses: actions/github-script@0.4.0
       env:
         PACKAGE: ${{ steps.labels.outputs.package }}

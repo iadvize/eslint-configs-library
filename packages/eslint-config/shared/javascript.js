@@ -31,6 +31,10 @@ module.exports = {
         tsx: 'never',
       },
     ],
+    'import/no-unused-modules': [
+      'error',
+      { missingExports: true, unusedExports: true },
+    ],
 
     'no-useless-constructor': 'error',
 

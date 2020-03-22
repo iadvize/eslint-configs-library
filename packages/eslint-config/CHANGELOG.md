@@ -7,6 +7,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+
+-   Update prettier@2
+-   Update eslint-config-prettier
+-   Update eslint-config-airbnb-base
+-   Update eslint-config-airbnb
+-   Update acorn
+-   Update @typescript-eslint/eslint-plugin
+-   Update eslint-plugin-react-hooks
+
 ## [1.1.2]
 
 ### Changed

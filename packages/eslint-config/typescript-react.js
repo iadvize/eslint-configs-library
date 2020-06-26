@@ -22,6 +22,7 @@ module.exports = {
     },
     'import/extensions': ['.js', '.ts', '.tsx'],
     'import/resolver': {
+      typescript: {}, // eslint-import-resolver-typescript config
       node: {
         extensions: ['.js', '.json', '.ts', '.tsx', '.d.ts'],
       },

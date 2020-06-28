@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+
+-   Do not use removed `@typescript-eslint/camelcase` rule
+
 ## [1.2.0]
 
 ### Changed

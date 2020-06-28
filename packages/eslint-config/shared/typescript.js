@@ -60,14 +60,6 @@ module.exports = {
     '@typescript-eslint/no-useless-constructor':
       airbnbES6Rules['no-useless-constructor'],
 
-    // Replace Airbnb 'camelcase' rule with '@typescript-eslint' version
-    // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/camelcase.md
-    camelcase: 'off',
-    '@typescript-eslint/camelcase': [
-      'error',
-      { ...javascriptRules.camelcase[1], genericType: 'always' },
-    ],
-
     // Replace Airbnb 'no-empty-function' rule with '@typescript-eslint' version
     // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-empty-function.md
     'no-empty-function': 'off',

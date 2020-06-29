@@ -1,4 +1,4 @@
-require('@iadvize-oss/eslint-config/patch');
+require('@rushstack/eslint-patch/modern-module-resolution');
 
 const JEST_FILES = [
   '**/*.test.@(j|t)s?(x)',

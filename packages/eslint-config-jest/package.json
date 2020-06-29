@@ -17,13 +17,14 @@
   "devDependencies": {
     "@jarrodldavis/remark-changelog-version-bump": "^0.1.1",
     "eslint": "^6.8.0",
-    "remark-cli": "^8.0.0"
+    "remark-cli": "^8.0.0",
+    "@iadvize-oss/eslint-config": "^1.2.1"
   },
   "peerDependencies": {
     "eslint": "^6.8.0"
   },
   "dependencies": {
-    "@iadvize-oss/eslint-config": "^1.2.1",
+    "@rushstack/eslint-patch": "^1.0.2",
     "eslint-plugin-jest": "^23.17.1"
   },
   "scripts": {

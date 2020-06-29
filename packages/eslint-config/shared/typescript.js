@@ -91,7 +91,6 @@ module.exports = {
     {
       files: ['*.js'],
       rules: {
-        // TODO, remove ?
         // allows var thing = require('./thing') instead of es import
         '@typescript-eslint/no-var-requires': 'off',
       },

@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+
+-   Drop support for eslint v6 and below in favor of eslint v7
+
 ## [1.2.1]
 
 ### Changed

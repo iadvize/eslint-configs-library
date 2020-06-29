@@ -15,7 +15,6 @@ module.exports = {
       excludedFiles: '*.mocha.*',
       env: {
         jest: true,
-        'jest/globals': true,
       },
       rules: {
         'no-unused-expressions': 'off',

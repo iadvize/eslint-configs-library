@@ -1,6 +1,6 @@
 {
   "name": "@iadvize-oss/eslint-config-jest",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "iAdvize javascript eslint rules for jest files",
   "main": "index.js",
   "author": "iAdvize developers",

@@ -7,9 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.0.7]
+
 ### Changed
 
--  Use @rushstack/eslint-patch instead of @iadvize/eslint-config/patch
+-   Use @rushstack/eslint-patch instead of @iadvize/eslint-config/patch
 
 ## [0.0.6]
 

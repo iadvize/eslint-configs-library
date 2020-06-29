@@ -15,9 +15,7 @@
     "url": "https://github.com/iadvize/eslint-configs-library"
   },
   "devDependencies": {
-    "@jarrodldavis/remark-changelog-version-bump": "^0.1.1",
     "eslint": "^6.8.0",
-    "remark-cli": "^8.0.0",
     "@iadvize-oss/eslint-config": "^1.2.1"
   },
   "peerDependencies": {
@@ -28,7 +26,6 @@
     "eslint-plugin-jest": "^23.17.1"
   },
   "scripts": {
-    "lint:js": "eslint *.js",
-    "bump-changelog": "VERSION=$(cat package.json | jq '.version') && remark CHANGELOG.md -o --use @jarrodldavis/changelog-version-bump=version:$VERSION && git add CHANGELOG.md"
+    "lint:js": "eslint *.js"
   }
 }

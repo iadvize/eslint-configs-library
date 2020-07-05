@@ -23,7 +23,7 @@
   },
   "dependencies": {
     "@rushstack/eslint-patch": "^1.0.2",
-    "eslint-plugin-jest": "^23.17.1"
+    "eslint-plugin-jest": "^23.18.0"
   },
   "scripts": {
     "lint:js": "eslint *.js"

@@ -25,6 +25,6 @@
     "lint:js": "eslint *.js"
   },
   "dependencies": {
-    "@rushstack/eslint-patch": "^1.0.3"
+    "@rushstack/eslint-patch": "^1.0.5"
   }
 }

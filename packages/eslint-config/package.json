@@ -15,7 +15,7 @@
     "url": "https://github.com/iadvize/eslint-configs-library"
   },
   "devDependencies": {
-    "eslint": "^7.10.0"
+    "eslint": "^7.11.0"
   },
   "peerDependencies": {
     "eslint": ">=7.3.1"

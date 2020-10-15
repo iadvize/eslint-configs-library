@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Fixed
+
+-  Fix typescript parser version
+-  Fix no-shadow and no-redeclare rules for TS
+-  Disable require-default-props for TS
+
 ## [2.1.0]
 
 ### Changed

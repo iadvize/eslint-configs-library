@@ -7,6 +7,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changes
+
+-   Add new rules
+-   Allow eslint@7
+
+### Fixes
+
+-   Remove old `jest/no-test-callback` rule
+
 ## [1.1.0]
 
 ### Changed

@@ -37,7 +37,6 @@ module.exports = {
         'jest/no-truthy-falsy': 'error',
         'jest/prefer-to-contain': 'error',
         'jest/prefer-called-with': 'error',
-        'jest/no-test-callback': 'error',
       },
     },
   ],

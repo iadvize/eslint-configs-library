@@ -66,6 +66,16 @@ module.exports = {
     '@typescript-eslint/no-empty-function':
       javascriptRules['no-empty-function'],
 
+    // Replace Airbnb 'no-redeclare' rule with '@typescript-eslint' version
+    // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-redeclare.md
+    'no-redeclare': 'off',
+    '@typescript-eslint/no-redeclare': airbnbBestPracticesRules['no-redeclare'],
+
+    // Replace Airbnb 'no-shadow' rule with '@typescript-eslint' version
+    // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-shadow.md
+    'no-shadow': 'off',
+    '@typescript-eslint/no-shadow': airbnbVariablesRules['no-shadow'],
+
     // do not force setting funciton return type
     '@typescript-eslint/explicit-function-return-type': 'off',
 

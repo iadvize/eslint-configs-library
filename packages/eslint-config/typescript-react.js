@@ -6,6 +6,7 @@ module.exports = {
     './shared/javascript.js',
     './shared/react.js',
     './shared/typescript.js',
+    './shared/typescript-react.js',
     './shared/typescript-with-types.js',
     './shared/prettier.js',
   ].map(require.resolve),

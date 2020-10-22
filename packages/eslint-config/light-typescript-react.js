@@ -6,6 +6,7 @@ module.exports = {
     './shared/javascript.js',
     './shared/react.js',
     './shared/typescript.js',
+    './shared/typescript-react.js',
     './shared/prettier.js',
   ].map(require.resolve),
   env: {
@@ -22,9 +23,5 @@ module.exports = {
         extensions: ['.js', '.json', '.ts', '.tsx', '.d.ts'],
       },
     },
-  },
-  rules: {
-    'react/jsx-filename-extension': ['error', { extensions: ['.js', '.tsx'] }],
-    'react/require-default-props': 'off',
   },
 };

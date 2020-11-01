@@ -6,8 +6,7 @@
   "author": "iAdvize developers",
   "keywords": [
     "iAdvize",
-    "eslint",
-    "patch"
+    "eslint"
   ],
   "license": "MIT",
   "repository": {

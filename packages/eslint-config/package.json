@@ -6,8 +6,7 @@
   "author": "iAdvize developers",
   "keywords": [
     "iAdvize",
-    "eslint",
-    "patch"
+    "eslint"
   ],
   "license": "MIT",
   "repository": {
@@ -15,7 +14,7 @@
     "url": "https://github.com/iadvize/eslint-configs-library"
   },
   "devDependencies": {
-    "eslint": "^7.11.0"
+    "eslint": "^7.12.1"
   },
   "peerDependencies": {
     "eslint": ">=7.3.1"

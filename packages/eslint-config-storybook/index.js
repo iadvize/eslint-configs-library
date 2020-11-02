@@ -1,5 +1,3 @@
-require('@rushstack/eslint-patch/modern-module-resolution');
-
 const STORYBOOK_FILES = [
   '.storybook/**/*.@(j|t)s?(x)',
   '**/*.stories.@(j|t)s?(x)',

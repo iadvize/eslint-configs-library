@@ -1,6 +1,6 @@
 {
   "name": "@iadvize-oss/eslint-config-redux-saga",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "iAdvize javascript eslint rules for redux-saga",
   "main": "index.js",
   "author": "iAdvize developers",

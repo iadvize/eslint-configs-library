@@ -1,5 +1,3 @@
-require('@rushstack/eslint-patch/modern-module-resolution');
-
 const TESTS_FILES = [
   '**/*.test.js*',
   'tests/**/*.js*',

@@ -1,5 +1,3 @@
-require('@rushstack/eslint-patch/modern-module-resolution');
-
 const JEST_FILES = [
   '**/*.test.@(j|t)s?(x)',
   'tests/**/*.@(j|t)s?(x)',

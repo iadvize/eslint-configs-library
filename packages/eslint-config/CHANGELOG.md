@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Fixed
+
+-   Fix @rushstack/eslint-patch for eslint 7.12.x
+
 ## [2.1.2]
 
 ### Fixed

@@ -1,5 +1,3 @@
-require('@rushstack/eslint-patch/modern-module-resolution');
-
 const MOCHA_FILES = ['**/*.mocha.js', 'mocha/**/*.js*'];
 
 module.exports = {

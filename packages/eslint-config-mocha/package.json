@@ -23,8 +23,5 @@
   },
   "scripts": {
     "lint:js": "eslint *.js"
-  },
-  "dependencies": {
-    "@rushstack/eslint-patch": "^1.0.6"
   }
 }

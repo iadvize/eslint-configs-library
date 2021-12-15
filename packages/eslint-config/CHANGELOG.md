@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Change
+
+- Added `'arrow-body-style': ['error', 'as-needed']`
+
 ## [2.2.0]
 
 ### Change

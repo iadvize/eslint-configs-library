@@ -8,6 +8,7 @@ module.exports = {
         forbid: ['any'],
       },
     ],
+    'react/function-component-definition': 'off',
     'react/prop-types': [
       'error',
       {

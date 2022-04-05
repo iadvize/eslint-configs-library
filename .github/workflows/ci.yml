@@ -15,9 +15,9 @@ jobs:
     steps:
     - uses: actions/checkout@v2-beta
 
-    - uses: actions/setup-node@v1
+    - uses: actions/setup-node@v3
       with:
-        node-verion: '12.x'
+        node-version: '16'
 
     - name: Cache npm cache
       uses: actions/cache@v1

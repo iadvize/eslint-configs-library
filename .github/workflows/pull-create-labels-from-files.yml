@@ -7,7 +7,7 @@ on:
 jobs:
   create-labels-from-files:
     name: 'create labels from files'
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-latest
 
     steps:
     - name: Create labels from files

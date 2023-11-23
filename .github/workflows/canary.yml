@@ -9,7 +9,7 @@ on:
 jobs:
   publish-canary:
     name: 'publish canary'
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-latest
 
     if: contains(join(github.event.pull_request.labels.*.name), 'packages/')
 

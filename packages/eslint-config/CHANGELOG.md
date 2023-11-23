@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Change
+
+-   Update dependencies to their latest major versions, allow to install `eslint@8.x` for node 16
+
 ## [4.0.0]
 
 ### Change

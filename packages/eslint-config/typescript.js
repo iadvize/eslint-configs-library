@@ -5,7 +5,6 @@ module.exports = {
     'eslint-config-airbnb-base',
     './shared/javascript.js',
     './shared/typescript.js',
-    './shared/typescript-with-types.js',
     './shared/prettier.js',
   ],
   env: {

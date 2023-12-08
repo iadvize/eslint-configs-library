@@ -7,6 +7,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+
+Update @typescript-eslint dependencies to major versions (`"@typescript-eslint/eslint-plugin": "^6.13.2"`, `"@typescript-eslint/parser": "^6.13.2"`).
+
+This is needed from TypeScript 5.2.
+
+See : 
+- https://typescript-eslint.io/blog/announcing-typescript-eslint-v6/
+- https://github.com/typescript-eslint/typescript-eslint/issues/7155
+
 ## [4.1.0]
 
 ### Change

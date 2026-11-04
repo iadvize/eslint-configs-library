@@ -23,7 +23,7 @@ jobs:
     steps:
     - name: Extract version label
       id: extract-labels
-      uses: actions/github-script@0.4.0
+      uses: actions/github-script@83e4cfe60ad25a2d0637965c993eb54c325d6d8d # 0.4.0
       with:
         github-token: ${{ secrets.GITHUB_TOKEN }}
         script: |
@@ -74,7 +74,7 @@ jobs:
 
           console.log(`::set-output name=package::${packageLabels[0].name}`)
 
-    - uses: actions/checkout@v2-beta
+    - uses: actions/checkout@a6747255bd19d7a757dbdda8c654a9f84db19839 # v2-beta
       with:
         ref: master
         token: ${{ secrets.GITHUB_TOKEN_REPO_WRITE }}
@@ -84,7 +84,7 @@ jobs:
         git config user.name "Github actions"
         git config user.email "github-actions@iadvize.com"
 
-    - uses: actions/setup-node@v3
+    - uses: actions/setup-node@3235b876344d2a9aa001b8d1453c930bba69e610 # v3.9.1
       with:
         node-version: '16'
 
@@ -149,7 +149,7 @@ jobs:
 
     - name: Create deployment
       id: deployment
-      uses: actions/github-script@0.4.0
+      uses: actions/github-script@83e4cfe60ad25a2d0637965c993eb54c325d6d8d # 0.4.0
       env:
         REF: ${{ steps.push.outputs.ref }}
         VERSION: ${{ steps.push.outputs.VERSION }}
@@ -205,7 +205,7 @@ jobs:
 
     - name: Create Release
       if: steps.extract-labels.outputs.versionBump != 'beta'
-      uses: actions/github-script@0.4.0
+      uses: actions/github-script@83e4cfe60ad25a2d0637965c993eb54c325d6d8d # 0.4.0
       env:
         NAME: ${{ steps.push.outputs.NAME }}
         VERSION: ${{ steps.push.outputs.version }}

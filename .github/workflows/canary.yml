@@ -14,11 +14,11 @@ jobs:
     if: contains(join(github.event.pull_request.labels.*.name), 'packages/')
 
     steps:
-    - uses: actions/checkout@v2-beta
+    - uses: actions/checkout@a6747255bd19d7a757dbdda8c654a9f84db19839 # v2-beta
 
     - name: Extract package name
       id: name
-      uses: actions/github-script@0.4.0
+      uses: actions/github-script@83e4cfe60ad25a2d0637965c993eb54c325d6d8d # 0.4.0
       with:
         github-token: ${{ secrets.GITHUB_TOKEN_REPO_WRITE }}
         previews: 'ant-man-preview,flash-preview'
@@ -67,13 +67,13 @@ jobs:
         echo "::set-output name=version::$NEW_VERSION"
         echo "::set-output name=name::$NAME"
 
-    - uses: actions/setup-node@v3
+    - uses: actions/setup-node@3235b876344d2a9aa001b8d1453c930bba69e610 # v3.9.1
       with:
         registry-url: https://registry.npmjs.org/
         node-version: '16'
 
     - name: Cache npm cache
-      uses: actions/cache@v1
+      uses: actions/cache@f5ce41475b483ad7581884324a6eca9f48f8dcc7 # v1.2.1
       with:
         path: ~/.npm
         key: v1-npm-${{ github.event.pull_request.head.ref }}-${{ hashFiles(format('{0}/package-lock.json', steps.name.outputs.package)) }}
@@ -102,7 +102,7 @@ jobs:
 
     - name: Create deployment
       id: deployment
-      uses: actions/github-script@0.4.0
+      uses: actions/github-script@83e4cfe60ad25a2d0637965c993eb54c325d6d8d # 0.4.0
       env:
         NAME: ${{ steps.compute-version.outputs.name }}
         VERSION: ${{ steps.compute-version.outputs.version }}

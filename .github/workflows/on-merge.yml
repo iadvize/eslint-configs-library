@@ -78,6 +78,8 @@ jobs:
       with:
         ref: master
         token: ${{ secrets.GITHUB_TOKEN_REPO_WRITE }}
+        # The release step pushes the version commit and tag with these credentials.
+        persist-credentials: true
 
     - name: Git config
       run: |

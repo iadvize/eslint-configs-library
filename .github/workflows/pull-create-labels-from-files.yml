@@ -8,6 +8,10 @@ jobs:
   create-labels-from-files:
     name: 'create labels from files'
     runs-on: ubuntu-latest
+    # The repo default GITHUB_TOKEN is read-only; adding labels needs write.
+    permissions:
+      contents: read
+      pull-requests: write
 
     steps:
     - name: Create labels from files

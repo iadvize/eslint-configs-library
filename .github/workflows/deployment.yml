@@ -38,6 +38,7 @@ jobs:
       uses: actions/checkout@61b9e3751b92087fd0b06925ba6dd6314e06f089 # master
       with:
         ref: ${{ github.event.deployment.payload.ref }}
+        persist-credentials: false
 
     - name: Git config
       run: |

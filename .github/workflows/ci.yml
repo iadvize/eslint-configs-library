@@ -14,13 +14,15 @@ jobs:
 
     steps:
     - uses: actions/checkout@a6747255bd19d7a757dbdda8c654a9f84db19839 # v2-beta
+      with:
+        persist-credentials: false
 
     - uses: actions/setup-node@3235b876344d2a9aa001b8d1453c930bba69e610 # v3.9.1
       with:
         node-version: '16'
 
     - name: Cache npm cache
-      uses: actions/cache@f5ce41475b483ad7581884324a6eca9f48f8dcc7 # v1.2.1
+      uses: actions/cache@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
       with:
         path: ~/.npm
         key: v1-npm-${{ github.ref }}-${{ hashFiles('**/package-lock.json') }}
